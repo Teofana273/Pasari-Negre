@@ -1,0 +1,17 @@
+header {
+	background-color: #b3b3b3;
+	padding: 50px;
+}
+
+h1{
+	 font: 50px Courier New, Monospace;
+	 font-weight: bold;
+	 text-align: center;
+	 text-transform: uppercase;
+	}
+
+
+.imagini {
+	background-color: #737373;
+	padding: 20px;
+}
