@@ -1,13 +1,16 @@
-html, body {
+html, body 
+	{
 	margin: 0;
-}
+	}
 
-header {
+header 
+	{
 	background-color: #d9d9d9;
-	padding: 35px;
-}
+	padding: 45px;
+	}
 
-h1{
+h1
+	{
 	 font: 50px Courier New, Monospace;
 	 text-align: center;
 	 text-transform: uppercase;
@@ -16,20 +19,29 @@ h1{
 	}
 
 
-.imagini {
+.imagini 
+	{
 	background-color: black;
 	padding: 35px;
-}
+	}
 
-.center {
+.center 
+	{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 450px;
-}
+	}
+
+.qqw
+	{
+	padding: 115px;
+	background-color: #d9d9d9;
+	}
 
 table {
   width:100%;
+  margin: 20px;
 }
 table, th, td {
   border: 1px solid #00004d;
@@ -52,19 +64,37 @@ table#t01 th {
   color: #b32d00;
 }
 
-table {
-	margin: 20px;
-}
 
-.info {
+.info 
+	{
 	color: black;
 	background-color: #ffb399;
 	padding: 0;
-}
+	}
 
+h2 {
+	background-color: #000066;
+	font-family: Andale Mono, monospace;
+	font-size-adjust: 35px;
+	color: #d9d9d9;
+	margin: 0px 15px;
+	padding: 15px;	
+	}
 
-.qqw{
-	padding: 100px;
-	background-color: #d9d9d9;
-}
+p 
+	{
+		padding: 10px;
+		margin: 0px;
+	}
 
+caption 
+	{
+		padding: 15px 0px 15px 0px;
+		font-family: Andale Mono, monospace;
+		font-size: 20px;
+		font-weight: 600;
+		color: #000066;
+		border: solid #d9d9d9;
+		border-spacing: 5px;
+		border-radius: 150px;
+	}
