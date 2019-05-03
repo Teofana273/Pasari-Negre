@@ -1,17 +1,70 @@
+html, body {
+	margin: 0;
+}
+
 header {
-	background-color: #b3b3b3;
-	padding: 50px;
+	background-color: #d9d9d9;
+	padding: 35px;
 }
 
 h1{
 	 font: 50px Courier New, Monospace;
-	 font-weight: bold;
 	 text-align: center;
 	 text-transform: uppercase;
+	 color: #ff8c66;
+	 font-style: bold;
 	}
 
 
 .imagini {
-	background-color: #737373;
-	padding: 20px;
+	background-color: black;
+	padding: 35px;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+}
+
+table {
+  width:100%;
+}
+table, th, td {
+  border: 1px solid #00004d;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  text-align: left;
+}
+th{
+	padding: 5px;
+	text-align: left;
+}
+table#t01 td {
+  background-color: #ff9f80;
+  color: #733726;
+}
+table#t01 th {
+  background-color: #00004d;
+  color: #b32d00;
+}
+
+table {
+	margin: 20px;
+}
+
+.info {
+	color: black;
+	background-color: #ffb399;
+	padding: 0;
+}
+
+
+.qqw{
+	padding: 100px;
+	background-color: #d9d9d9;
+}
+
