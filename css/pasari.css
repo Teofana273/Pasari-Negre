@@ -5,8 +5,8 @@ html, body
 
 header 
 	{
-	background-color: #d9d9d9;
-	padding: 45px;
+	background-color: #eee7d1;
+	padding: 50px;
 	}
 
 h1
@@ -14,14 +14,14 @@ h1
 	 font: 50px Courier New, Monospace;
 	 text-align: center;
 	 text-transform: uppercase;
-	 color: #ff8c66;
-	 font-style: bold;
+	 color: #24421c;
+	 font-weight: 600;
 	}
 
 
 .imagini 
 	{
-	background-color: black;
+	background-color: #24421c;
 	padding: 35px;
 	}
 
@@ -36,47 +36,14 @@ h1
 .qqw
 	{
 	padding: 115px;
-	background-color: #d9d9d9;
-	}
-
-table {
-  width:100%;
-  margin: 20px;
-}
-table, th, td {
-  border: 1px solid #00004d;
-  border-collapse: collapse;
-}
-td {
-  padding: 5px;
-  text-align: left;
-}
-th{
-	padding: 5px;
-	text-align: left;
-}
-table#t01 td {
-  background-color: #ff9f80;
-  color: #733726;
-}
-table#t01 th {
-  background-color: #00004d;
-  color: #b32d00;
-}
-
-
-.info 
-	{
-	color: black;
-	background-color: #ffb399;
-	padding: 0;
+	background-color: #eee7d1;
 	}
 
 h2 {
-	background-color: #000066;
+	background-color: #d48d99;
 	font-family: Andale Mono, monospace;
-	font-size-adjust: 35px;
-	color: #d9d9d9;
+	font-size: 35px;
+	color: #24421c;
 	margin: 0px 15px;
 	padding: 15px;	
 	}
@@ -85,6 +52,16 @@ p
 	{
 		padding: 10px;
 		margin: 0px;
+		font-size: 20px;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+
+.info 
+	{
+	color: black;
+	background-color: #e7cba9;
+	padding: 0;
+	margin: 0;
 	}
 
 caption 
@@ -92,9 +69,69 @@ caption
 		padding: 15px 0px 15px 0px;
 		font-family: Andale Mono, monospace;
 		font-size: 20px;
-		font-weight: 600;
-		color: #000066;
-		border: solid #d9d9d9;
+		font-weight: 700;
+		color: #24421c;
+		border: solid #d48d99;
 		border-spacing: 5px;
-		border-radius: 150px;
+		border-radius: 100px;
+		border-width: 5px;
 	}
+
+
+table 
+	{
+  margin: 20px;
+	}
+
+table, th, td 
+	{
+  border: 1px solid #9aabb9;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left;
+  color: #f5f3f5;
+	}
+
+table#tab th 
+	{
+  background-color: #613a43;
+ 
+	}
+
+table#tab tr:nth-child(even)
+	{
+		background-color: #5a6882;
+		
+	}
+
+table#tab tr:nth-child(odd)
+	{
+		background-color: #36384c;
+		
+	}
+
+ul 
+	{
+		list-style-type: circle;
+		
+
+	}
+
+a
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+footer ul
+	{
+		text-align: center;
+		margin: 0;
+	}
+footer ul li
+	{
+		display: inline-block;
+		padding: 20px;
+
+	}
+
