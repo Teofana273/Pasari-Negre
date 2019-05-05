@@ -18,6 +18,31 @@ h1
 	 font-weight: 600;
 	}
 
+.cioara
+	{
+		float: left;
+		border-radius: 250px;
+		width: 450px;
+  
+	}
+
+.stancuta
+	{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 450px;
+		border-radius: 250px;
+	}
+
+
+.corb
+	{
+		float:right; 
+		border-radius: 300px;
+		width: 450px;
+	}
+
 
 .imagini 
 	{
@@ -28,8 +53,7 @@ h1
 .st 
 	{
 	display: block;
-	margin-left: 5px;
-	margin-right: auto;
+	
 	width: 450px;
 	}
 
@@ -41,13 +65,7 @@ h1
 	width: 450px;
 	}
 
-.center 
-	{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 450px;
-	}
+
 
 .qqw
 	{
