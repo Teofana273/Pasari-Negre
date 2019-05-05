@@ -1,2 +1,2 @@
-# Pasari-Negre
-Cum sa identificam pasarile negre mai usor
+# Corvus
+Cum sa identificam pasarile din familia corvus mai usor
